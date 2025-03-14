@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "survey-generator"
+version = "0.1.0"
+description = ""
+authors = ["Author Anonymous <author@anonymous.com>"]
+readme = "README.md"
+packages = [
+    { include = "survey_generator" }
+]
+
+[tool.poetry.dependencies]
+python = "3.13"
+numpy = "2.2.3"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+help = "survey_generator.main:hello"
+arff = "survey_generator.main:generate_arff"
