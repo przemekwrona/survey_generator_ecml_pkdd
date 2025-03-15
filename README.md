@@ -11,9 +11,9 @@ These files contain only headers, and their content has been removed because the
 Files with the prefix `warsaw_generated_all_ones-part-` and `warsaw_generated_traffic_matrix-part-` are split ZIP files due to their size.
 To revert this process, go to the `Merge synthetic data` section.
 
-Additionally, this files present two data sources with synthetic journeys.
-The first is a collection of 100k synthetic journeys based on the All Ones Matrix, while the second is based on the Traffic Matrix.
-
+The first is a collection of 100k synthetic journeys based on the UNIFORM_FREQ method, while the second one is based on the REAL_FREQ method
+Additionally, these files present two data sources with synthetic journeys. 
+Files with the prefix warsaw_generated_all_ones-part- and warsaw_generated_traffic_matrix-part- are split ZIP files due to their size and contain SU data generated in this work based on UNIFORM_FREQ and REAL_FREQ methods, respectively
 ## Init project
 
 Init project with Poetry `1.8.4`
