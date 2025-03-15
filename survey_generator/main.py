@@ -16,7 +16,3 @@ def generate_arff():
                                         shuffle=args.shuffle,
                                         no_sample_train=args.no_sample_train,
                                         no_sample_test=args.no_sample_test)
-
-
-def hello():
-    print("Hello")

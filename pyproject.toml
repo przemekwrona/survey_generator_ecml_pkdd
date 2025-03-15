@@ -19,5 +19,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-help = "survey_generator.main:hello"
 arff = "survey_generator.main:generate_arff"
