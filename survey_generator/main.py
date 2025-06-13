@@ -1,6 +1,7 @@
 import argparse
 
 from survey_generator.data import warsaw_survey_generator
+from survey_generator.drift import drift_detector
 
 
 def generate_arff():
@@ -16,3 +17,9 @@ def generate_arff():
                                         shuffle=args.shuffle,
                                         no_sample_train=args.no_sample_train,
                                         no_sample_test=args.no_sample_test)
+
+
+def detect_drift():
+    drift_detector.run()
+
+# detect_drift()
